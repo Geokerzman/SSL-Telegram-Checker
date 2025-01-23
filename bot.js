@@ -77,14 +77,13 @@ async function getWhoisInfo(domain) {
 }
 
 function generateExpirationChart(certChain) {
-  const width = 800; // Ширина изображения
-  const height = 400; // Высота изображения
+  const width = 800;
+  const height = 400;
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext('2d');
 
-  // Параметры графика
   const padding = 50;
-  const titleHeight = 40; // Высота области для заголовка
+  const titleHeight = 40;
   const chartWidth = width - padding * 2;
   const chartHeight = height - padding - titleHeight;
   const barGap = 20;
@@ -96,7 +95,7 @@ function generateExpirationChart(certChain) {
   ctx.fillRect(0, 0, width, height);
 
   const gridLines = 5;
-  ctx.strokeStyle = '#4d4d4d'; // Цвет сетки
+  ctx.strokeStyle = '#4d4d4d';
   ctx.lineWidth = 1;
   for (let i = 0; i <= gridLines; i++) {
     const y = padding + titleHeight + (i * chartHeight) / gridLines;
