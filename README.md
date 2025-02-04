@@ -1,6 +1,5 @@
 # SSL Checker Bot
-Link to original bot: t.me/checkyoursslbot
-
+[CheckYourSSLBot](https://t.me/checkyoursslbot)
 ---
 
 
