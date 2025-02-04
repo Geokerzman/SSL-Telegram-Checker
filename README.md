@@ -1,4 +1,8 @@
 # SSL Checker Bot
+Link to original bot: t.me/checkyoursslbot
+
+---
+
 
 ## Description:
 This is a Telegram bot for checking SSL certificates and retrieving domain information.  
