@@ -1,5 +1,4 @@
-# SSL Checker Bot
-[CheckYourSSLBot](https://t.me/checkyoursslbot)
+[CheckYourSSLBot](https://t.me/checkyoursslbot) 
 ---
 
 
